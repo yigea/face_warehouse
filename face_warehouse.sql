@@ -30,10 +30,10 @@ CREATE TABLE `config`  (
 -- ----------------------------
 -- Records of config
 -- ----------------------------
-INSERT INTO `config` VALUES ('endpoint', 'oss-cn-beijing.aliyuncs.com', 'oss');
-INSERT INTO `config` VALUES ('accessKeyId', '请前往阿里云对象存储获取', 'oss');
-INSERT INTO `config` VALUES ('accessKeySecret', '请前往阿里云对象存储获取', 'oss');
-INSERT INTO `config` VALUES ('bucket', '请前往阿里云对象存储获取', 'oss');
+INSERT INTO `config` VALUES ('endpoint', 'oss-cn-shanghai.aliyuncs.com', 'oss');
+INSERT INTO `config` VALUES ('accessKeyId', 'LTAI5t9vWU9i8tKvvzUVyGdH', 'oss');
+INSERT INTO `config` VALUES ('accessKeySecret', 'tIeGvjkmeOCziM1QXKw9kVOehRvjws', 'oss');
+INSERT INTO `config` VALUES ('bucket', 'face-warehouse-examine/facePicture', 'oss');
 
 -- ----------------------------
 -- Table structure for user_info

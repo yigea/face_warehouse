@@ -13,7 +13,7 @@ spring:
     hibernate:
       ddl-auto: update
   redis:
-    host: 127.0.0.1
+    host: 192.168.101.94
     port: 6379
     password:
     jedis:
@@ -25,7 +25,7 @@ spring:
     lettuce:
       shutdown-timeout: 0
   datasource:
-    url: jdbc:mysql://localhost:3306/face_warehouse?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://192.168.101.94:3306/face_warehouse?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -38,6 +38,6 @@ eureka:
       defaultZone: http://127.0.0.1:8888/eureka/
 
 face:
-  dllPath: 'D:/人脸识别系统/ArcSoft_ArcFace_Java_Windows_x64_V3.0/libs\WIN64'  #存放引擎文件的地址
-  appId: ''
-  sdkKey: ''
+  dllPath: '/Users/macbookpro/Desktop/idea_project/security/Face-recognition/ArcSoft_ArcFace_Java_Windows_x64_V3.0/libs/WIN64'  #存放引擎文件的地址
+  appId: 'Ethn3BLhmUv8Gch5CBVxcud4JyzrMRqqGxhXmvTa3vWo'
+  sdkKey: '4c4vfRfD9CBM3H3n1sgePmkXe54KE7wi5KWqu9qEWxEC'
