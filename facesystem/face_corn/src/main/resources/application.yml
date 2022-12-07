@@ -39,5 +39,5 @@ eureka:
 
 face:
   dllPath: '/Users/macbookpro/Desktop/idea_project/security/Face-recognition/ArcSoft_ArcFace_Java_Windows_x64_V3.0/libs/WIN64'  #存放引擎文件的地址
-  appId: 'Ethn3BLhmUv8Gch5CBVxcud4JyzrMRqqGxhXmvTa3vWo'
-  sdkKey: '4c4vfRfD9CBM3H3n1sgePmkXe54KE7wi5KWqu9qEWxEC'
+  appId: ''
+  sdkKey: ''
