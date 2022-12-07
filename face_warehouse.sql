@@ -31,9 +31,9 @@ CREATE TABLE `config`  (
 -- Records of config
 -- ----------------------------
 INSERT INTO `config` VALUES ('endpoint', 'oss-cn-shanghai.aliyuncs.com', 'oss');
-INSERT INTO `config` VALUES ('accessKeyId', 'LTAI5t9vWU9i8tKvvzUVyGdH', 'oss');
-INSERT INTO `config` VALUES ('accessKeySecret', 'tIeGvjkmeOCziM1QXKw9kVOehRvjws', 'oss');
-INSERT INTO `config` VALUES ('bucket', 'face-warehouse-examine/facePicture', 'oss');
+INSERT INTO `config` VALUES ('accessKeyId', '', 'oss');
+INSERT INTO `config` VALUES ('accessKeySecret', '', 'oss');
+INSERT INTO `config` VALUES ('bucket', '', 'oss');
 
 -- ----------------------------
 -- Table structure for user_info
